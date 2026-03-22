@@ -1,0 +1,37 @@
+/* Global styles for scrollytelling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0f172a;
+  color: #fff;
+}
+
+/* Smooth scrolling for GSAP animations */
+@supports (scroll-behavior: smooth) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Prevent layout shift during animations */
+* {
+  box-sizing: border-box;
+}
+
+/* Image optimization */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Smooth transitions */
+button {
+  transition: all 0.3s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+}
