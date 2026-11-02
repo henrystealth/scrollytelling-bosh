@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Plaintext env files. A future scrollytelling-bosh-1password.env of op://
+# references would not match these patterns and can be committed.
+.env
+.env.*
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

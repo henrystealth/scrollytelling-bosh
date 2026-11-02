@@ -1,0 +1,4 @@
+{
+  "name": "scrollytelling-bosh",
+  "install": "bash .cursor/install.sh"
+}
